@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه رسمی اپل برای شرکتها | Apple Business Partners</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @font-face {
+            font-family: 'Vazir';
+            src: url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/Vazir.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            font-family: 'Vazir', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .ltr {
+            direction: ltr;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .nav-link::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #0071e3;
+            transition: width .3s;
+        }
+        
+        .blue-accent {
+            color: #0071e3;
+        }
+        
+        .blue-bg {
+            background-color: #0071e3;
+        }
+        
+        .blue-border {
+            border-color: #0071e3;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Top Announcement Bar -->
+    <div class="bg-gray-900 text-white text-sm py-2 px-4 text-center">
+        <p>قیمت ویژه عمده برای شرکای تجاری تأیید شده. <a href="#login" class="font-semibold underline">همین حالا کسب و کار خود را ثبت کنید</a></p>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0 flex items-center">
+                        <img class="h-8 w-auto" src="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg" alt="لوگوی اپل">
+                        <span class="ml-2 text-xl font-semibold">شرکای<span class="blue-accent">تجاری</span></span>
+                    </a>
+                </div>
+                
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#" class="nav-link px-3 py-2 text-sm font-medium">خانه</a>
+                    <a href="#products" class="nav-link px-3 py-2 text-sm font-medium">دسته‌بندی محصولات</a>
+                    <a href="#benefits" class="nav-link px-3 py-2 text-sm font-medium">مزایا</a>
+                    <a href="#about" class="nav-link px-3 py-2 text-sm font-medium">درباره ما</a>
+                    <a href="#contact" class="nav-link px-3 py-2 text-sm font-medium">تماس با ما</a>
+                    <a href="#faq" class="nav-link px-3 py-2 text-sm font-medium">سوالات متداول</a>
+                    <a href="#blog" class="nav-link px-3 py-2 text-sm font-medium">بلاگ</a>
+                </div>
+                
+                <div class="flex items-center">
+                    <a href="#login" class="ml-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white blue-bg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        ورود شرکا
+                    </a>
+                    <button class="md:hidden ml-4 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                        <span class="sr-only">منو</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">محصولات اپل برای <span class="blue-accent">کسب و کارها</span></h1>
+                    <p class="text-xl text-gray-600 mb-8">قیمت ویژه عمده، سفارش عمده و پشتیبانی اختصاصی برای نیازهای فناوری سازمان شما.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#login" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white blue-bg hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                            ثبت نام شرکا
+                        </a>
+                        <a href="#products" class="inline-flex items-center justify-center px-8 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+                            مشاهده محصولات
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <img src="https://www.apple.com/v/macbook-air-m2/c/images/overview/hero/hero_macbook_air__15zwsyrklzee_large.jpg" alt="محصولات اپل" class="rounded-lg shadow-xl max-w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trust Badges -->
+    <div class="bg-gray-50 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-check-circle text-3xl blue-accent mb-2"></i>
+                    <p class="font-medium">۱۰۰% اورجینال</p>
+                    <p class="text-sm text-gray-500">مستقیماً از اپل</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-tag text-3xl blue-accent mb-2"></i>
+                    <p class="font-medium">قیمت عمده</p>
+                    <p class="text-sm text-gray-500">تخفیف‌های حجمی</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-truck text-3xl blue-accent mb-2"></i>
+                    <p class="font-medium">تحویل سریع</p>
+                    <p class="text-sm text-gray-500">ارسال جهانی</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <i class="fas fa-headset text-3xl blue-accent mb-2"></i>
+                    <p class="font-medium">پشتیبانی اختصاصی</p>
+                    <p class="text-sm text-gray-500">متخصصان کسب و کار</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Product Categories -->
+    <section id="products" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">دسته‌بندی محصولات</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">محصولات متنوع اپل برای نیازهای کسب و کار شما</p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- iPhone -->
+                <a href="#" class="product-card group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                    <div class="aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden">
+                        <img src="https://www.apple.com/v/iphone/home/bo/images/overview/hero/iphone_14_pro__de41900yuggi_large.jpg" alt="آیفون" class="w-full h-full object-contain object-center group-hover:opacity-75">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-medium text-gray-900">آیفون</h3>
+                        <p class="mt-1 text-sm text-gray-500">جدیدترین مدل‌ها و قیمت عمده</p>
+                        <div class="mt-4">
+                            <span class="text-sm font-medium blue-accent">مشاهده تمام مدل‌ها</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Mac -->
+                <a href="#" class="product-card group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                    <div class="aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden">
+                        <img src="https://www.apple.com/v/mac/home/bf/images/overview/hero/macbook_air__b0y6x0q8vree_large.jpg" alt="مک" class="w-full h-full object-contain object-center group-hover:opacity-75">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-medium text-gray-900">مک</h3>
+                        <p class="mt-1 text-sm text-gray-500">مک‌بوک، آی‌مک و مک پرو</p>
+                        <div class="mt-4">
+                            <span class="text-sm font-medium blue-accent">مشاهده تمام مدل‌ها</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- iPad -->
+                <a href="#" class="product-card group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                    <div class="aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden">
+                        <img src="https://www.apple.com/v/ipad/home/bo/images/overview/hero/ipad_air__fwphjor0m6m2_large.jpg" alt="آیپد" class="w-full h-full object-contain object-center group-hover:opacity-75">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-medium text-gray-900">آیپد</h3>
+                        <p class="mt-1 text-sm text-gray-500">برای کسب و کار و آموزش</p>
+                        <div class="mt-4">
+                            <span class="text-sm font-medium blue-accent">مشاهده تمام مدل‌ها</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Accessories -->
+                <a href="#" class="product-card group relative bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+                    <div class="aspect-w-1 aspect-h-1 bg-gray-200 overflow-hidden">
+                        <img src="https://www.apple.com/v/airpods/shared/compare/c/images/overview/compare_airpods_pro__e9uzt0mzviem_large.jpg" alt="لوازم جانبی" class="w-full h-full object-contain object-center group-hover:opacity-75">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-medium text-gray-900">لوازم جانبی</h3>
+                        <p class="mt-1 text-sm text-gray-500">کیف، شارژر و بیشتر</p>
+                        <div class="mt-4">
+                            <span class="text-sm font-medium blue-accent">مشاهده تمام لوازم</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Business Benefits -->
+    <section id="benefits" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">مزایای تجاری</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">چرا پلتفرم B2B ما را برای نیازهای محصولات اپل انتخاب کنید</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-percentage blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">تخفیف حجمی</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">تخفیف‌های خودکار بر اساس حجم سفارش، با قیمت‌گذاری قابل مذاکره برای قراردادهای بزرگ.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-file-invoice-dollar blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">صورتحساب انعطاف‌پذیر</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">شرایط خالص، سفارش‌های خرید و چرخه‌های صورتحساب سفارشی برای شرکای تجاری واجد شرایط.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-user-tie blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">مدیر حساب اختصاصی</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">پشتیبانی شخصی‌سازی شده از یک متخصص تجاری معتبر اپل برای تمام نیازهای خرید شما.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-shield-alt blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">گزینه‌های گارانتی تمدید شده</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">طرح‌های AppleCare+ سفارشی برای استقرارهای تجاری با گزینه‌های خدمات در محل.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-boxes blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">پیکربندی عمده</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">دستگاه‌های از پیش پیکربندی شده با تنظیمات شرکتی، برنامه‌ها و برندسازی آماده برای استقرار.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                            <i class="fas fa-chart-line blue-accent text-xl"></i>
+                        </div>
+                        <h3 class="ml-3 text-lg font-medium">تحلیل استفاده</h3>
+                    </div>
+                    <p class="mt-2 text-gray-600">گزارش‌های دقیق در مورد استقرار دستگاه‌ها، الگوهای استفاده و مدیریت چرخه عمر.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Partner Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">مورد اعتماد کسب و کارهای پیشرو</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">نظرات شرکای تجاری راضی ما</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-medium">سارا جانسون</h4>
+                            <p class="text-xs text-gray-500">مدیر فناوری، TechSolutions</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"قیمت‌گذاری حجمی و پشتیبانی اختصاصی فرآیند خرید دستگاه‌های ما را متحول کرده است. بیش از ۳۰٪ در مقایسه با کانال‌های خرده‌فروشی صرفه‌جویی کرده‌ایم."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-medium">مایکل چن</h4>
+                            <p class="text-xs text-gray-500">مدیر فناوری اطلاعات، GlobalCorp</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"مدیر حساب ما به ما کمک کرد ۵۰۰ مک‌بوک را با تصویر شرکتی ما قبل از ارسال پیکربندی کنیم. خدمات سفیدپوش بی‌نظیر است."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                        <div class="ml-4">
+                            <h4 class="text-sm font-medium">دیوید رودریگز</h4>
+                            <p class="text-xs text-gray-500">مدیر خرید، EduSystems</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 italic">"ما تمام مدارس خود را از طریق این برنامه با آیپد تجهیز می‌کنیم. قیمت‌گذاری آموزشی و خدمات استقرار دقیقاً همان چیزی است که نیاز داشتیم."</p>
+                    <div class="mt-4 flex text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Partner Registration CTA -->
+    <section id="login" class="py-16 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">آماده همکاری هستید؟</h2>
+                    <p class="mt-4 text-lg text-gray-300">به شبکه شرکای تجاری معتبر ما بپیوندید و امروز در محصولات اپل صرفه‌جویی کنید.</p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-lg shadow-lg p-6 text-gray-800">
+                        <h3 class="text-lg font-medium mb-4">ثبت نام کسب و کار</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="company" class="block text-sm font-medium text-gray-700 mb-1">نام شرکت</label>
+                                <input type="text" id="company" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                                <div>
+                                    <label for="first-name" class="block text-sm font-medium text-gray-700 mb-1">نام</label>
+                                    <input type="text" id="first-name" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                                <div>
+                                    <label for="last-name" class="block text-sm font-medium text-gray-700 mb-1">نام خانوادگی</label>
+                                    <input type="text" id="last-name" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">ایمیل کاری</label>
+                                <input type="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">شماره تلفن</label>
+                                <input type="tel" id="phone" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="employees" class="block text-sm font-medium text-gray-700 mb-1">تعداد کارمندان</label>
+                                <select id="employees" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                    <option>۱-۱۰</option>
+                                    <option>۱۱-۵۰</option>
+                                    <option>۵۱-۲۰۰</option>
+                                    <option>۲۰۱-۱۰۰۰</option>
+                                    <option>۱۰۰۰+</option>
+                                </select>
+                            </div>
+                            <div class="flex items-center mb-4">
+                                <input id="terms" name="terms" type="checkbox" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                                <label for="terms" class="ml-2 block text-sm text-gray-700">
+                                    من با <a href="#" class="blue-accent font-medium">شرایط خدمات</a> و <a href="#" class="blue-accent font-medium">سیاست حفظ حریم خصوصی</a> موافقم
+                                </label>
+                            </div>
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white blue-bg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                درخواست همکاری
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <div class="lg:col-span-5">
+                    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">درباره شرکای تجاری اپل</h2>
+                    <p class="mt-3 text-lg text-gray-500">یک توزیع‌کننده عمده معتبر اپل که از سال ۲۰۱۰ به کسب و کارها خدمت می‌کند.</p>
+                    <div class="mt-6">
+                        <a href="#contact" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white blue-bg hover:bg-blue-700">
+                            تماس با تیم ما
+                        </a>
+                    </div>
+                </div>
+                <div class="mt-12 lg:mt-0 lg:col-span-7">
+                    <div class="space-y-12">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                    <i class="fas fa-medal"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg leading-6 font-medium">توزیع‌کننده معتبر اپل</h3>
+                                <p class="mt-2 text-gray-500">ما یک فروشنده معتبر اپل برای شرکت‌ها هستیم با دسترسی مستقیم به برنامه‌ها و موجودی تجاری اپل.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg leading-6 font-medium">پوشش جهانی</h3>
+                                <p class="mt-2 text-gray-500">ما به کسب و کارها در بیش از ۴۵ کشور با پشتیبانی محلی و شبکه‌های لجستیک خدمت می‌کنیم.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg leading-6 font-medium">تراکنش‌های امن</h3>
+                                <p class="mt-2 text-gray-500">امنیت در سطح سازمانی برای تمام تراکنش‌ها با رعایت PCI DSS و ارتباطات رمزگذاری شده.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">سوالات متداول</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">پاسخ به سوالات رایج درباره برنامه B2B ما</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+                    <div class="border-t border-gray-200 divide-y divide-gray-200">
+                        <div class="faq-item">
+                            <button class="faq-question w-full px-4 py-5 sm:px-6 flex justify-between items-center text-left focus:outline-none">
+                                <span class="text-lg font-medium">چگونه برای قیمت‌گذاری تجاری واجد شرایط می‌شوم؟</span>
+                                <i class="fas fa-chevron-down text-blue-500 transform transition-transform duration-200"></i>
+                            </button>
+                            <div class="faq-answer px-4 pb-5 sm:px-6 hidden">
+                                <p class="text-gray-500">برای واجد شرایط بودن برای قیمت‌گذاری تجاری، باید مدارکی ارائه دهید که وضعیت کسب و کار شما را تأیید کند (مانند مجوز کسب و کار، شناسه مالیاتی یا اساسنامه). سطوح قیمت بر اساس حجم سفارش و شرایط قرارداد است.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question w-full px-4 py-5 sm:px-6 flex justify-between items-center text-left focus:outline-none">
+                                <span class="text-lg font-medium">چه روش‌های پرداختی را می‌پذیرید؟</span>
+                                <i class="fas fa-chevron-down text-blue-500 transform transition-transform duration-200"></i>
+                            </button>
+                            <div class="faq-answer px-4 pb-5 sm:px-6 hidden">
+                                <p class="text-gray-500">ما تمام کارت‌های اعتباری اصلی، حواله بانکی/وایر و سفارش‌های خرید (با اعتبار تأیید شده) را می‌پذیریم. شرایط خالص ۳۰/۶۰/۹۰ روزه برای کسب و کارهای واجد شرایط پس از تأیید اعتبار در دسترس است.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question w-full px-4 py-5 sm:px-6 flex justify-between items-center text-left focus:outline-none">
+                                <span class="text-lg font-medium">آیا می‌توانم دستگاه‌ها را از پیش برای سازمانم پیکربندی کنم؟</span>
+                                <i class="fas fa-chevron-down text-blue-500 transform transition-transform duration-200"></i>
+                            </button>
+                            <div class="faq-answer px-4 pb-5 sm:px-6 hidden">
+                                <p class="text-gray-500">بله، ما خدمات پیکربندی عمده از جمله ثبت‌نام MDM، تصویربرداری شرکتی، پیش‌نصب برنامه‌ها و برندسازی سفارشی را ارائه می‌دهیم. تیم ما با بخش فناوری اطلاعات شما همکاری خواهد کرد تا نیازهای خاص شما را برآورده کند.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question w-full px-4 py-5 sm:px-6 flex justify-between items-center text-left focus:outline-none">
+                                <span class="text-lg font-medium">سیاست بازگشت شما چیست؟</span>
+                                <i class="fas fa-chevron-down text-blue-500 transform transition-transform duration-200"></i>
+                            </button>
+                            <div class="faq-answer px-4 pb-5 sm:px-6 hidden">
+                                <p class="text-gray-500">محصولات باز نشده ظرف ۱۴ روز از تحویل می‌توانند برای بازپرداخت کامل مرجوع شوند. دستگاه‌های پیکربندی شده سفارشی غیرقابل بازگشت هستند. تمام مرجوعی‌ها به شماره RMA از تیم پشتیبانی ما نیاز دارند.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <button class="faq-question w-full px-4 py-5 sm:px-6 flex justify-between items-center text-left focus:outline-none">
+                                <span class="text-lg font-medium">آیا گزینه‌های اجاره ارائه می‌دهید؟</span>
+                                <i class="fas fa-chevron-down text-blue-500 transform transition-transform duration-200"></i>
+                            </button>
+                            <div class="faq-answer px-4 pb-5 sm:px-6 hidden">
+                                <p class="text-gray-500">بله، ما با چندین شرکت اجاره همکاری می‌کنیم تا گزینه‌های اجاره انعطاف‌پذیر ۱۲-۳۶ ماهه با چرخه‌های ارتقاء، بسته‌های نگهداری و گزینه‌های خرید در پایان اجاره ارائه دهیم.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8">
+                <div class="mb-12 lg:mb-0">
+                    <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">با تیم تجاری ما تماس بگیرید</h2>
+                    <p class="mt-3 text-lg text-gray-500">سوالی درباره برنامه B2B ما دارید؟ متخصصان ما آماده کمک هستند.</p>
+                    
+                    <div class="mt-8">
+                        <div class="flex items-start mb-8">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                                <i class="fas fa-phone-alt blue-accent"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium">پرسش‌های فروش</h3>
+                                <p class="mt-1 text-gray-500">+۱ (۸۰۰) ۵۵۵-۰۱۹۹</p>
+                                <p class="mt-1 text-sm text-gray-400">شنبه تا چهارشنبه، ۸ صبح تا ۶ بعدازظهر به وقت تهران</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start mb-8">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                                <i class="fas fa-envelope blue-accent"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium">ایمیل بزنید</h3>
+                                <p class="mt-1 text-gray-500">business@applepartners.com</p>
+                                <p class="mt-1 text-sm text-gray-400">پاسخ در طول ۱ روز کاری</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 bg-blue-100 p-3 rounded-full">
+                                <i class="fas fa-map-marker-alt blue-accent"></i>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium">دفتر مرکزی</h3>
+                                <p class="mt-1 text-gray-500">خیابان ولیعصر، پلاک ۱۲۳</p>
+                                <p class="mt-1 text-gray-500">تهران، ایران</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-lg shadow-sm p-6">
+                    <h3 class="text-lg font-medium mb-4">پیام بفرستید</h3>
+                    <form>
+                        <div class="grid grid-cols-1 gap-6">
+                            <div>
+                                <label for="full-name" class="block text-sm font-medium text-gray-700">نام کامل</label>
+                                <input type="text" id="full-name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700">ایمیل</label>
+                                <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="company" class="block text-sm font-medium text-gray-700">شرکت</label>
+                                <input type="text" id="company" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                            </div>
+                            <div>
+                                <label for="subject" class="block text-sm font-medium text-gray-700">موضوع</label>
+                                <select id="subject" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                                    <option>پرسش فروش</option>
+                                    <option>همکاری</option>
+                                    <option>پشتیبانی فنی</option>
+                                    <option>وضعیت سفارش</option>
+                                    <option>سایر</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700">پیام</label>
+                                <textarea id="message" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-blue-500 focus:border-blue-500"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white blue-bg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                                    ارسال پیام
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Preview -->
+    <section id="blog" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">از بلاگ ما</h2>
+                <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">بینش‌هایی برای رهبران فناوری کسب و کار</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <a href="#" class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <img src="https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-14-16-inch-10182021_inline.jpg.large.jpg" alt="مک‌بوک پرو" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs font-medium blue-accent">مدیریت دستگاه</span>
+                        <h3 class="mt-2 text-lg font-medium">بهترین روش‌ها برای مدیریت ناوگان مک در سازمان‌ها</h3>
+                        <p class="mt-3 text-sm text-gray-500">بیاموزید که چگونه شرکت‌های پیشرو هزاران مک‌بوک را با حداکثر کارایی مستقر و مدیریت می‌کنند.</p>
+                        <div class="mt-4 flex items-center">
+                            <span class="text-sm font-medium blue-accent">ادامه مطلب</span>
+                            <i class="fas fa-chevron-left ml-1 text-xs blue-accent"></i>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#" class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13pro_iphone13_09142021_inline.jpg.large.jpg" alt="آیفون" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs font-medium blue-accent">امنیت</span>
+                        <h3 class="mt-2 text-lg font-medium">حفاظت از داده‌های شرکتی در دستگاه‌های آیفون</h3>
+                        <p class="mt-3 text-sm text-gray-500">راهنمای جامع برای پیاده‌سازی سیاست‌های امنیتی سطح سازمانی در دستگاه‌های iOS.</p>
+                        <div class="mt-4 flex items-center">
+                            <span class="text-sm font-medium blue-accent">ادامه مطلب</span>
+                            <i class="fas fa-chevron-left ml-1 text-xs blue-accent"></i>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#" class="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <img src="https://www.apple.com/newsroom/images/product/ipad/standard/Apple_ipad-pro-spring21_04202021_inline.jpg.large.jpg" alt="آیپد" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-xs font-medium blue-accent">آموزش</span>
+                        <h3 class="mt-2 text-lg font-medium">تحول کلاس‌های درس با آیپد: تجربه یک مدرسه</h3>
+                        <p class="mt-3 text-sm text-gray-500">چگونه یک مدرسه با استفاده از آیپدها و برنامه‌های آموزشی، تجربه یادگیری را متحول کرد.</p>
+                        <div class="mt-4 flex items-center">
+                            <span class="text-sm font-medium blue-accent">ادامه مطلب</span>
+                            <i class="fas fa-chevron-left ml-1 text-xs blue-accent"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-medium mb-4">شرکای تجاری اپل</h3>
+                    <p class="text-gray-400">توزیع‌کننده رسمی محصولات اپل برای کسب و کارها و سازمان‌ها در خاورمیانه.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-4">لینک‌های سریع</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">خانه</a></li>
+                        <li><a href="#products" class="text-gray-400 hover:text-white">محصولات</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white">مزایا</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white">درباره ما</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">تماس با ما</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-4">پشتیبانی</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#faq" class="text-gray-400 hover:text-white">سوالات متداول</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">پشتیبانی فنی</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">وضعیت سفارش</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">بازگشت کالا</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">گارانتی</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-medium mb-4">خبرنامه</h3>
+                    <p class="text-gray-400 mb-4">در خبرنامه ما برای دریافت آخرین اخبار و پیشنهادات ویژه عضو شوید.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="ایمیل شما" class="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-800">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-md">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© ۲۰۲۳ شرکای تجاری اپل. تمام حقوق محفوظ است.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">شرایط استفاده</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">حریم خصوصی</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">کوکی‌ها</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Mobile menu toggle (would need additional HTML)
+        const mobileMenuButton = document.querySelector('.md\\:hidden');
+        mobileMenuButton.addEventListener('click', () => {
+            // This would need a mobile menu implementation
+            console.log('Mobile menu clicked');
+        });
+    </script>
+</body>
+</html>
